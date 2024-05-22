@@ -54,7 +54,3 @@ add_filter( 'ep_prepared_post_meta', function($metas,$post){
 	}
 	return $metas;
 },10,2);
-
-add_filter('ep_sync_terms_allow_hierarchy',function(){
-	return false; 
-});
